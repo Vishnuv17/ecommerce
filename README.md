@@ -28,15 +28,15 @@ A simple eCommerce website built with PHP and MySQL. Users can browse products, 
 2. **Import the database:**
 
    - Open `phpMyAdmin`.
-   - Create a new database (e.g., `ecommerce_db`).
-   - Import the `ecommerce_db.sql` file (located in the project root or `/database` folder).
+   - Create a new database (e.g., `ecommerce`).
+   - Import the `ecommerce.sql` file (located in the project root or `/database` folder).
 
 3. **Configure the database connection:**
 
    In `config.php`, set your DB credentials:
 
    ```php
-   $conn = mysqli_connect("localhost", "root", "", "ecommerce_db");
+   $conn = mysqli_connect("localhost", "root", "", "ecommerce");
    ```
 
 4. **Start your local server:**
